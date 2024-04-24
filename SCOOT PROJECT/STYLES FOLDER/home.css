@@ -150,3 +150,138 @@ nav >a {
     background-color: white;
     border-radius: 31px;
 }
+
+/* LOCATE WITH APP SECTION  */
+
+.ash-div {
+    width: 974px;
+    height: 1px;
+    border: 15px solid #E5ECF4;
+    margin-top: -250px;
+    margin-left: 80px;
+   
+
+}
+
+.locate-section{
+    width: 1275px;
+    height: 291px;
+    margin-top: 100px;
+    margin-left: 165px;
+}
+
+.locate-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shape-div {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #FCB72B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 38.38px;
+    height: 47.97px;
+    color: #495567;
+}
+
+.locate-card > h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: #495567;
+    width: 350px;
+    height: 28px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.locate-card > p {
+    width: 350px;
+    height: 100px;
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+
+/* <!-- EASY TO USE RIDING TELEMETRY SECCTION  --> */
+.easy-section {
+    width: 1619px;
+    height: 445px;
+    margin-top: 300px;
+    margin-left: 165px;
+    position: relative;
+}
+
+.easy-div {
+    display: flex;
+}
+
+.telemetry {
+    margin-right: 350px;
+}
+.telemetry > h1 {
+    width: 445px;
+    height: 96px;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+}
+
+.telemetry >p {
+    width: 445px;
+    height: 100px;
+    margin-top: 30px;
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    margin-bottom: 60px;
+}
+
+.learn-more {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: 'Space Mono' , monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    padding: 7px 14px;
+    transition: opacity 0.15s;
+}
+.learn-more:hover {
+    opacity: 0.7;
+}
+.learn-more:active {
+    background-color: green;
+}
+
+.path-4 {
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+}
+.group-13 {
+    margin-left: 670px;
+    margin-top: -90px;
+}
