@@ -241,18 +241,19 @@ nav >a {
     letter-spacing: -2.142857074737549px;
     text-align: left;
     color: #495567;
+    margin-top: 50px;
 }
 
-.telemetry >p {
+.telemetry > p {
     width: 445px;
     height: 100px;
-    margin-top: 30px;
     font-family: 'Lexend Deca',sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
     text-align: left;
     color: #939CAA;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -284,4 +285,95 @@ nav >a {
 .group-13 {
     margin-left: 670px;
     margin-top: -90px;
+}
+
+/* GOING TO THE CITY NEAR YOU SECTION  */
+
+.city-div {
+ display: flex;
+ justify-content: space-around;
+ margin-top: 100px;
+}
+
+.city-div1 > h1 {
+    width: 445px;
+    height: 96px;
+    font-family: 'Space Mono' , monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: #495567;
+    margin-top: 30px;
+}
+
+.city-div1 > p {
+    width: 445px;
+    height: 100px;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.group-8-copy {
+    position: absolute;
+}
+.city-section {
+    position: relative;
+ 
+}
+
+/* ZERO HASSLE PAYMENTS SECTION  */
+.payment-section {
+    width: 1619px;
+    height: 445px;
+    margin-top: 100px;
+    margin-left: 165px;
+    position: relative;
+}
+.payment-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wallet > img {
+    margin-right: 350px;
+    width: 445px;
+    height: 445px;
+    border-radius: 222.5px;
+}
+
+/* FOOTER SECTION  */
+footer {
+    width: 1440px;
+    height: 396px;
+    margin-top: 100px;
+    margin-left: 40px;
+    border: 1px solid green;
+    background-image: url(../icons\ folder/group22);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.footer-div {
+    width: 1440px;
+    height: 300px;
+    background-color: #495567;
+}
+.path5 {
+    position: absolute;
+    right: -150px;
+    top: 60px;
+}
+
+.group14 {
+    position: absolute;
+    right: 550px;
+    top: 123px;
 }
