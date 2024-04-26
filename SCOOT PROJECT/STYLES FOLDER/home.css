@@ -55,14 +55,13 @@ nav >a {
 
 /* HERO SECTION  */
 .hero-section {
+  background-image: url(../images\ folder/Bitmap.png);
     width: 1440px;
     height: 650px;
     margin-left: 45px;
     margin-top: 30px;
-    background-image: url(../images\ folder/Bitmap.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
+    border: 1px solid blue;
 }
 
 .scooter {
@@ -76,7 +75,7 @@ nav >a {
     height: 112px;
     margin-left: 165px;
     padding-top: 160px;
-    color: #FFFFFF;
+    color: black;
 }
 
 .scoot{
@@ -90,7 +89,7 @@ nav >a {
     font-weight: 400;
     line-height: 25px;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .get-scooting2{
@@ -267,7 +266,7 @@ nav >a {
     line-height: 25px;
     text-align: center;
     color: white;
-    padding: 7px 14px;
+    padding: 10px 20px;
     transition: opacity 0.15s;
 }
 .learn-more:hover {
@@ -355,17 +354,34 @@ footer {
     height: 396px;
     margin-top: 100px;
     margin-left: 40px;
-    border: 1px solid green;
-    background-image: url(../icons\ folder/group22);
-    background-repeat: no-repeat;
-    background-position-x: right;
+    background-image: url(../images\ folder/mask.png);
 }
 
 .footer-div {
     width: 1440px;
     height: 300px;
-    background-color: #495567;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url(../icons\ folder/group22);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: cover; */
 }
+
+.footer-div > div > h1 {
+    color: white;
+    width: 415px;
+    height: 96px;
+    font-family: 'Space Mono' , monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+}
+
 .path5 {
     position: absolute;
     right: -150px;
@@ -376,4 +392,53 @@ footer {
     position: absolute;
     right: 550px;
     top: 123px;
+}
+
+.google-play {
+    margin-left: 20px;
+}
+
+/* FOOTER NAV  */
+.footer-nav {
+    background-color: #333A44;
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-scoot {
+    display: flex;
+    width: 417px;
+    height: 29px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-scoot{
+    margin-right: 350px;
+}
+
+.footer-scoot > a {
+    font-family: 'Space Mono' , monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+.footer-scoot > a :hover {
+    color:#FCB72B;
+}
+
+/* FOOTER ICONS  */
+
+.footer-icons > a {
+    padding-left: 20px;
+    color:#FCB72B;
+}
+
+
+.footer-icons > a:hover {
+    color: #939CAA;
 }
