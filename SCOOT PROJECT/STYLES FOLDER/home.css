@@ -55,7 +55,6 @@ nav >a {
 
 /* HERO SECTION  */
 .hero-section {
-  background-image: url(../images\ folder/Bitmap.png);
     width: 1440px;
     height: 650px;
     margin-left: 45px;
@@ -364,10 +363,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-image: url(../icons\ folder/group22);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: cover; */
 }
 
 .footer-div > div > h1 {
