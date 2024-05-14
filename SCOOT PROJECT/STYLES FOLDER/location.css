@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 34px;
+}
+nav {
+    margin-left: 40px;
+    margin-right: 520px;
+}
+
+
+nav >a {
+    padding-left: 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+
+.get-scooting {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    width: 180px;    
+    height: 54px;
+    background-color: #FCB72B;
+    transition: opacity 0.15s;
+}
+
+.location-hero-section {
+    background-image: url(../images\ folder/career.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+}
+
+.locarion-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-hero-section >div > p {
+    width: 289px;
+    height: 56px;
+    font-family: 'SpaceMono', monospace;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    color: white;
+}
+
+
+.circle-div {
+    display: flex;
+    width: 234px;
+    height: 63px;
+    justify-content: space-between;
+    margin-left: 20px;
+    position: relative;
+    left: 30px;
+}
+.circle-div1,.circle-div2 {
+    width: 62px;
+    height: 62px;
+    border: 3px solid white;
+    border-radius: 31px;
+}
+
+
+.circle-div3 {
+    width: 62px;
+    height: 62px;
+    background-color: white;
+    border-radius: 31px;
+}
+
+/* MAP SECTION  */
+.map-section {
+    width: 1110px;
+    height: 543px;
+    margin-top: 50px;
+    margin-left: 164px;
+}
+
+/* CITY NOT LISTED SECTION  */
+.not-listed-section {
+    width: 1111px;
+    height: 100px;
+    margin-left: 164px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    width: 351px;
+    height: 96px;
+    font-family: SpaceMono, monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color:#495567;
+}
+
+.demand {
+    width: 445px;
+    height: 100px;
+    font-family: Lexend Deca, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+
+.message-btn {
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    font-family: SpaceMono, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.message-btn:hover {
+opacity: 0.7;
+}
+
+/* FOOTER SECTION  */
+footer {
+    width: 1440px;
+    height: 396px;
+    margin-top: 100px;
+    margin-left: 40px;
+    background-image: url(../images\ folder/mask.png);
+}
+
+.footer-div {
+    width: 1440px;
+    height: 300px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-div > div > h1 {
+    color: white;
+    width: 415px;
+    height: 96px;
+    font-family: 'Space Mono' , monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+}
+
+.group14 {
+    position: absolute;
+    right: 550px;
+    top: 123px;
+}
+
+.google-play {
+    margin-left: 20px;
+}
+
+/* FOOTER NAV  */
+.footer-nav {
+    background-color: #333A44;
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-scoot {
+    display: flex;
+    width: 417px;
+    height: 29px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-scoot{
+    margin-right: 350px;
+}
+
+.footer-scoot > a {
+    font-family: 'Space Mono' , monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #939CAA;
+}
+.footer-scoot > a :hover {
+    color:#FCB72B;
+}
+
+/* FOOTER ICONS  */
+
+.footer-icons > a {
+    padding-left: 20px;
+    color:#FCB72B;
+}
+
+
+.footer-icons > a:hover {
+    color: #939CAA;
+}
